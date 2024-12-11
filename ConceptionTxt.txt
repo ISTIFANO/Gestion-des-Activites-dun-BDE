@@ -1,0 +1,36 @@
+Contexte du projet
+Le Bureau des Étudiants (BDE) d'une école de coding souhaite une application web pour gérer ses activités. L'application doit permettre de suivre les événements organisés, d’enregistrer les participants, de gérer les membres du BDE, et de suivre les sponsors des événements. Votre mission est de concevoir et de réaliser la base de données relationnelle pour cette application.
+
+​
+
+**Objectifs pédagogiques :
+**
+
+Concevoir un schéma relationnel (ERD) adapté aux besoins d’une application.
+Implémenter une base de données en SQL, incluant les tables et les relations nécessaires.
+Rédiger des requêtes SQL pour manipuler les données de manière efficace.
+​
+
+Le Bureau des Étudiants (BDE) d’une école de coding joue un rôle central dans l’animation de la vie étudiante en organisant divers événements tels que des hackathons, des soirées de networking, des ateliers techniques et des compétitions sportives. Afin de simplifier et d’améliorer la gestion de ces activités, une application web est nécessaire. Cette application devra permettre de centraliser les données liées aux membres du BDE, aux événements organisés, aux participants, et aux sponsors.
+
+​
+
+Le BDE est composé de plusieurs membres, chacun ayant un rôle spécifique tel que président, trésorier, secrétaire ou membre actif. Chaque membre doit être identifié par des informations personnelles comme un identifiant unique, un nom, un prénom, un email, son rôle au sein du BDE, et la date d’adhésion.
+
+​
+
+Pour chaque événement, il sera nécessaire de collecter et de gérer des informations détaillées telles que le nom de l’événement, sa description, la date et l’heure, le lieu, le budget prévu, et les membres du BDE responsables de son organisation. Un événement peut être organisé par plusieurs membres, et chaque membre peut être impliqué dans l’organisation de plusieurs événements.
+
+​
+
+Les étudiants et autres participants doivent pouvoir s’inscrire aux événements. Le système doit permettre d’enregistrer leurs informations personnelles, y compris un identifiant unique, leur nom, leur prénom, leur email et leur statut (par exemple étudiant actif, diplômé ou invité). Un participant peut s’inscrire à plusieurs événements, et chaque événement peut accueillir plusieurs participants.
+
+​
+
+Certains événements bénéficient du soutien de sponsors, qui apportent un financement ou des ressources. Le système devra inclure les informations relatives aux sponsors, telles qu’un identifiant unique, le nom de l’entreprise ou de l’entité, le nom du contact principal, ses coordonnées (email et numéro de téléphone), le montant sponsorisé, et la liste des événements financés par ce sponsor. Un sponsor peut soutenir plusieurs événements, et un événement peut avoir plusieurs sponsors.
+
+​
+
+L’objectif est de concevoir une base de données relationnelle qui permet de modéliser ces données et leurs interactions. Cela inclut les relations entre les membres du BDE et les événements qu’ils organisent, les participants et les événements auxquels ils s’inscrivent, ainsi que les sponsors et les événements qu’ils soutiennent. La conception de cette base de données servira de fondation à l’application web de gestion des activités du BDE, offrant une solution robuste et évolutive pour répondre aux besoins opérationnels.
+
+​
